@@ -1,0 +1,20 @@
+2025-08-31 07:05:20.590 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 07:05:20.612 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 07:05:20.615 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 07:05:23.852 [info] Started local extension host with pid 112612.
+2025-08-31 07:05:29.962 [error] [Extension Host] (node:112612) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-31 07:05:38.128 [info] Extension host (LocalProcess pid: 112612) is unresponsive.
+2025-08-31 07:05:41.056 [info] Extension host (LocalProcess pid: 112612) is responsive.
+2025-08-31 07:06:04.346 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-31 07:06:29.915 [info] [perf] Render performance baseline is 110ms
+2025-08-31 07:06:31.768 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:06:31.770 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-08-31 07:06:32.366 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:07:29.960 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:07:30.145 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:07:39.676 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:07:40.061 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:15:02.695 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:15:03.143 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:20:42.555 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.chatSessionStore, join.chatEditingSession, join.workingCopyHistory

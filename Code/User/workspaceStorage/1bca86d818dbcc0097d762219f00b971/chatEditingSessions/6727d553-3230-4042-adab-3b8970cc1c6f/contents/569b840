@@ -1,0 +1,23 @@
+
+;; Variable global para el workspace activo
+(defvar active_workspace (sh "~/.config/eww/scripts/get_active_workspace.sh" :interval "1s"))
+
+(defwidget workspaces []
+  (eventbox
+    (box :class "module" :space-evenly "false" :orientation "h" :spacing "3"
+      ;; Label de depuración para mostrar el valor de active_workspace
+      (label :text (str "active_ws: " active_workspace) :class "workspace_label")
+      (button :class [ "workspace_btn" (if (= active_workspace "1") "active" "") ] :onclick "hyprctl dispatch workspace 1"
+        (label :text " " :class "workspace_label"))
+      (button :class [ "workspace_btn" (if (= active_workspace "2") "active" "") ] :onclick "hyprctl dispatch workspace 2"
+        (label :text " " :class "workspace_label"))
+      (button :class [ "workspace_btn" (if (= active_workspace "3") "active" "") ] :onclick "hyprctl dispatch workspace 3"
+        (label :text " " :class "workspace_label"))
+      (button :class [ "workspace_btn" (if (= active_workspace "4") "active" "") ] :onclick "hyprctl dispatch workspace 4"
+        (label :text " " :class "workspace_label"))
+      (button :class [ "workspace_btn" (if (= active_workspace "5") "active" "") ] :onclick "hyprctl dispatch workspace 5"
+        (label :text "󱋱 " :class "workspace_label"))
+      (button :class [ "workspace_btn" (if (= active_workspace "6") "active" "") ] :onclick "hyprctl dispatch workspace 6"
+        (label :text "󰙯 " :class "workspace_label"))
+      (button :class [ "workspace_btn" (if (= active_workspace "7") "active" "") ] :onclick "hyprctl dispatch workspace 7"
+        (label :text " " :class "workspace_label"))))

@@ -1,0 +1,5 @@
+(defpoll test_var :interval "1s" "echo 5")
+
+(defwidget test_widget []
+  (box :orientation "v"
+    (label :text test_var :class "workspace_label")))

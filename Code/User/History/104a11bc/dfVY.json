@@ -1,0 +1,4 @@
+{
+    "terminal.integrated.automationProfile.linux": {},
+    "terminal.external.linuxExec": "/usr/bin/foot"
+}

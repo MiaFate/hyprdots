@@ -1,0 +1,42 @@
+
+(defpoll test_var :interval "1s" "/home/mia/.config/eww/scripts/get_active_workspace.sh")
+
+
+(defwidget workspaces []
+  (eventbox
+    (box :class "module" :space-evenly "false" :orientation "h" :spacing "3"
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 1"
+        (label :text " " :class { test_var == 1 ? "workspace_label_active" : "workspace_label"}))
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 2"
+        (label :text " " :class { test_var == 2 ? "workspace_label_active" : "workspace_label"}))
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 3"
+        (label :text " " :class { test_var == 3 ? "workspace_label_active" : "workspace_label"}))
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 4"
+        (label :text " " :class { test_var == 4 ? "workspace_label_active" : "workspace_label"}))
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 5"
+        (label :text "󱋱 " :class { test_var == 5 ? "workspace_label_active" : "workspace_label"}))
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 6"
+        (label :text "󰙯 " :class { test_var == 6 ? "workspace_label_active" : "workspace_label"}))
+      (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 7"
+        (label :text " " :class { test_var == 7 ? "workspace_label_active" : "workspace_label"})))))
+
+
+        ;;(defwidget workspaces []
+;;  (box :orientation "v"
+;;    (eventbox
+;;      (box :class "module" :space-evenly "false" :orientation "h" :spacing "3"
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 1"
+;;            (label :text (str " " " [" active_workspace "]") :class (if (eq active_workspace "1") "workspace_label active_label" "workspace_label")))
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 2"
+;;            (label :text (str " " " [" active_workspace "]") :class (if (eq active_workspace "2") "workspace_label active_label" "workspace_label")))
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 3"
+;;           (label :text (str " " " [" active_workspace "]") :class (if (eq active_workspace "3") "workspace_label active_label" "workspace_label")))
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 4"
+;;            (label :text (str " " " [" active_workspace "]") :class (if (eq active_workspace "4") "workspace_label active_label" "workspace_label")))
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 5"
+;;            (label :text (str "󱋱 " " [" active_workspace "]") :class (if (eq active_workspace "5") "workspace_label active_label" "workspace_label")))
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 6"
+;;            (label :text (str "󰙯 " " [" active_workspace "]") :class (if (eq active_workspace "6") "workspace_label active_label" "workspace_label")))
+;;          (button :class "workspace_btn" :onclick "hyprctl dispatch workspace 7"
+;;            (label :text (str " " " [" active_workspace "]") :class (if (eq active_workspace "7") "workspace_label active_label" "workspace_label")))
+;;      ))))

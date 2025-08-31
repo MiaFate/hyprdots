@@ -1,0 +1,29 @@
+2025-08-31 05:21:28.996 [info] Extension host with pid 1650 started
+2025-08-31 05:21:29.250 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-31 05:21:29.460 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-31 05:21:29.507 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-31 05:21:29.644 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-31 05:21:30.068 [info] Eager extensions activated
+2025-08-31 05:21:30.259 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:21:30.286 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:21:30.496 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:21:35.734 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:42:09.195 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-31 05:42:09.300 [info] Extension host with pid 1650 exiting with code 0
+2025-08-31 05:42:15.671 [info] Extension host with pid 25450 started
+2025-08-31 05:42:15.671 [info] Skipping acquiring lock for /home/mia/.config/Code/User/workspaceStorage/1bca86d818dbcc0097d762219f00b971.
+2025-08-31 05:42:18.549 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-31 05:42:18.684 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-31 05:42:18.741 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-08-31 05:42:20.036 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-31 05:42:21.874 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-31 05:42:22.098 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-31 05:42:22.681 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2025-08-31 05:42:23.122 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-08-31 05:42:24.020 [info] Eager extensions activated
+2025-08-31 05:42:24.777 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:42:24.781 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:42:24.962 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-08-31 05:46:41.942 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-08-31 06:05:21.942 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-31 06:05:22.227 [info] Extension host with pid 25450 exiting with code 0

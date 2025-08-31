@@ -1,0 +1,40 @@
+2025-08-31 05:21:29.958 [info] [main] Log level: Info
+2025-08-31 05:21:29.958 [info] [main] Validating found git in: "git"
+2025-08-31 05:21:29.958 [info] [main] Using git "2.51.0" from "git"
+2025-08-31 05:21:29.958 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-31 05:21:29.958 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-31 05:42:24.222 [info] [main] Log level: Info
+2025-08-31 05:42:24.222 [info] [main] Validating found git in: "git"
+2025-08-31 05:42:24.222 [info] [main] Using git "2.51.0" from "git"
+2025-08-31 05:42:24.222 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-31 05:42:24.222 [info] > git rev-parse --show-toplevel [26ms]
+2025-08-31 05:42:24.222 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:24.270 [info] > git rev-parse --show-toplevel [21ms]
+2025-08-31 05:42:24.270 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:24.388 [info] > git rev-parse --show-toplevel [97ms]
+2025-08-31 05:42:24.388 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:24.430 [info] > git rev-parse --show-toplevel [8ms]
+2025-08-31 05:42:24.430 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:24.441 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-31 05:42:31.510 [info] > git rev-parse --show-toplevel [392ms]
+2025-08-31 05:42:31.510 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:31.642 [info] > git rev-parse --show-toplevel [108ms]
+2025-08-31 05:42:31.643 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:32.865 [info] > git rev-parse --show-toplevel [954ms]
+2025-08-31 05:42:32.865 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:33.074 [info] > git rev-parse --show-toplevel [103ms]
+2025-08-31 05:42:33.075 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:33.137 [info] > git rev-parse --show-toplevel [7ms]
+2025-08-31 05:42:33.137 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-08-31 05:42:33.168 [info] > git rev-parse --show-toplevel [6ms]
+2025-08-31 05:42:33.168 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

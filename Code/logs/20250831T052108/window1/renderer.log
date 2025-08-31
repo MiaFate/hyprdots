@@ -1,0 +1,27 @@
+2025-08-31 05:21:13.675 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:21:13.713 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:21:13.715 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:21:14.145 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 23ms.
+2025-08-31 05:21:19.794 [info] Started local extension host with pid 1408.
+2025-08-31 05:21:28.911 [error] [Extension Host] (node:1408) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-31 05:21:29.688 [error] Canceled: Canceled
+    at VC (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3642:37249
+    at Array.forEach (<anonymous>)
+    at MDt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3642:37189)
+    at LRe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3642:48866)
+    at Vun.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3649:7731)
+    at Oun.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3649:7033)
+    at async gkt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15899)
+2025-08-31 05:21:29.689 [error] Canceled: Canceled
+    at VC (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3642:37249
+    at Array.forEach (<anonymous>)
+    at MDt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3642:37189)
+    at LRe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3642:48866)
+    at Vun.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3649:7731)
+    at Oun.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3649:7033)
+    at async gkt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15899)
+2025-08-31 05:21:29.814 [warning] [backup tracker] suspended, ignoring register event file:///home/mia/.config/eww/widgets/test_widget.yuck 
+2025-08-31 05:21:30.388 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.chatSessionStore

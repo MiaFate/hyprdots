@@ -1,0 +1,6 @@
+2025-08-31 07:58:50.478 [info] [certificates] Removed 1 expired certificates
+2025-08-31 07:58:51.434 [info] [fetcher] Using Helix fetcher.
+2025-08-31 07:58:51.434 [info] [code-referencing] Public code references are enabled.
+2025-08-31 07:58:52.298 [info] [fetcher] Using Helix fetcher.
+2025-08-31 08:01:56.292 [warning] [relatedFiles] unknown language yuck
+2025-08-31 08:03:57.078 [warning] [relatedFiles] unknown language scss

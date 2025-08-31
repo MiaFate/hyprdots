@@ -1,0 +1,30 @@
+2025-08-31 08:40:16.275 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 08:40:16.300 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 08:40:16.301 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 08:40:23.550 [info] Started local extension host with pid 3718.
+2025-08-31 08:40:34.137 [error] [Extension Host] (node:3718) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-31 08:40:34.280 [info] Extension host (LocalProcess pid: 3718) is unresponsive.
+2025-08-31 08:40:34.401 [info] Extension host (LocalProcess pid: 3718) is responsive.
+2025-08-31 08:40:41.146 [info] Extension host (LocalProcess pid: 3718) is unresponsive.
+2025-08-31 08:40:45.037 [info] Extension host (LocalProcess pid: 3718) is responsive.
+2025-08-31 08:41:01.589 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-31 08:45:16.403 [info] [perf] Render performance baseline is 310ms
+2025-08-31 08:50:46.634 [error] [Extension Host] [AsyncCompletionManager] [e2ece4d3-71b5-4582-83b3-4b50064d2c8a] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/mia/.vscode/extensions/github.copilot-1.364.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/mia/.vscode/extensions/github.copilot-1.364.0/lib/src/networking.ts:105:19
+    at zce.invoke (/home/mia/.vscode/extensions/github.copilot-1.364.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/mia/.vscode/extensions/github.copilot-1.364.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at _q.cancel (/home/mia/.vscode/extensions/github.copilot-1.364.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Oce.cancel (/home/mia/.vscode/extensions/github.copilot-1.364.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Xc.cancelRequest (/home/mia/.vscode/extensions/github.copilot-1.364.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Xc.getFirstMatchingRequest (/home/mia/.vscode/extensions/github.copilot-1.364.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/mia/.vscode/extensions/github.copilot-1.364.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}

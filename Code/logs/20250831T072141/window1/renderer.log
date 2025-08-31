@@ -1,0 +1,37 @@
+2025-08-31 07:21:43.186 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 07:21:43.213 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 07:21:43.214 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 07:21:44.799 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:21:44.803 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-08-31 07:21:47.492 [info] Started local extension host with pid 129844.
+2025-08-31 07:21:52.732 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:21:52.770 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-31 07:21:55.049 [error] [Extension Host] (node:129844) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-31 07:21:58.425 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:21:58.615 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:21:59.094 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:21:59.585 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:22:00.123 [info] Extension host (LocalProcess pid: 129844) is unresponsive.
+2025-08-31 07:22:01.442 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:22:01.713 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:22:01.781 [info] Extension host (LocalProcess pid: 129844) is responsive.
+2025-08-31 07:22:02.520 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:22:02.724 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:22:02.963 [info] [perf] Render performance baseline is 85ms
+2025-08-31 07:22:03.539 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:22:03.676 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:22:04.863 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:22:05.173 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:22:09.026 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:22:09.330 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:23:37.526 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:23:37.774 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:23:55.264 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:23:55.583 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:25:48.479 [error] Error while getting the latest version for the extension eamodio.gitlens from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-08-31 07:25:48.489 [error] Error while getting the latest version for the extension eamodio.gitlens. Canceled
+2025-08-31 07:26:10.655 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:26:10.957 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-31 07:58:01.315 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-31 07:58:02.042 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

@@ -1,0 +1,1 @@
+2025-08-31 08:40:30.355 [error] Failed to set sticky bit on /tmp/mia-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/mia-code-zsh'

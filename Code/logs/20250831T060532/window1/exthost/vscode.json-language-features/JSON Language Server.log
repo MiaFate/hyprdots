@@ -1,0 +1,29 @@
+2025-08-31 06:24:39.599 [info] read schema from vscode: vscode://schemas/settings/user
+2025-08-31 06:24:40.597 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-08-31 06:24:40.619 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2025-08-31 06:24:40.632 [info] read schema from vscode: vscode://schemas/launch
+2025-08-31 06:24:40.653 [info] read schema from vscode: vscode://schemas/token-styling
+2025-08-31 06:24:40.658 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-08-31 06:24:40.661 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-08-31 06:24:40.677 [info] cancelled
+2025-08-31 06:24:41.158 [info] schema change detected vscode://schemas/settings/user
+2025-08-31 06:24:41.508 [info] cancelled
+2025-08-31 06:24:41.513 [info] cancelled
+2025-08-31 06:24:41.514 [info] cancelled
+2025-08-31 06:24:41.515 [info] cancelled
+2025-08-31 06:24:41.528 [info] read schema from vscode: vscode://schemas/settings/user
+2025-08-31 06:24:42.062 [info] schema change detected vscode://schemas/settings/user
+2025-08-31 06:24:42.165 [info] cancelled
+2025-08-31 06:24:42.172 [info] read schema from vscode: vscode://schemas/settings/user
+2025-08-31 06:24:42.566 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-08-31 06:24:42.690 [info] schema change detected vscode://schemas/ignoredSettings
+2025-08-31 06:24:43.033 [info] schema change detected vscode://schemas/settings/user
+2025-08-31 06:24:43.315 [info] cancelled
+2025-08-31 06:24:43.373 [info] read schema from vscode: vscode://schemas/settings/user
+2025-08-31 06:24:43.981 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-08-31 06:24:43.982 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2025-08-31 06:24:44.580 [info] cancelled
+2025-08-31 06:24:46.279 [info] schema change detected vscode://schemas/launch
+2025-08-31 06:24:46.290 [info] read schema from vscode: vscode://schemas/settings/user
+2025-08-31 06:24:46.677 [info] read schema from vscode: vscode://schemas/launch
+2025-08-31 06:24:48.939 [info] schema change detected vscode://schemas/settings/user

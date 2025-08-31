@@ -1,0 +1,24 @@
+
+;; Variable global para el workspace activo
+(defpoll active_workspace :interval "1s" "echo 5")
+
+(defwidget workspaces []
+  (box :orientation "v"
+  ;; (label :text (str "active_ws: " active_workspace) :class "workspace_label")
+  ;; Label de prueba fijo
+    (eventbox
+      (box :class "module" :space-evenly "false" :orientation "h" :spacing "3"
+        (button :class (if (eq active_workspace "1") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 1"
+          (label :text " " :class "workspace_label"))
+        (button :class (if (eq active_workspace "2") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 2"
+          (label :text " " :class "workspace_label"))
+        (button :class (if (eq active_workspace "3") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 3"
+          (label :text " " :class "workspace_label"))
+        (button :class (if (eq active_workspace "4") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 4"
+          (label :text " " :class "workspace_label"))
+        (button :class (if (eq active_workspace "5") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 5"
+          (label :text "󱋱 " :class "workspace_label"))
+        (button :class (if (eq active_workspace "6") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 6"
+          (label :text "󰙯 " :class "workspace_label"))
+        (button :class (if (eq active_workspace "7") "workspace_btn active" "workspace_btn") :onclick "hyprctl dispatch workspace 7"
+          (label :text " " :class "workspace_label"))))))

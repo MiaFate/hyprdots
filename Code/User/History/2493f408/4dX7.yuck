@@ -1,0 +1,5 @@
+(defwidget ss_region []
+  (eventbox
+    (box :class "module" :space-evenly "false" :orientation "h" :spacing "3"
+      (button :class "workspace_btn" :onclick "hyprshot -m region"
+        (label :text " " :class "workspace_label")))))

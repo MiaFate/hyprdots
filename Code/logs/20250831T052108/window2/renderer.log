@@ -1,0 +1,23 @@
+2025-08-31 05:21:24.639 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:21:24.661 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:21:24.666 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:21:24.908 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2025-08-31 05:21:25.078 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 22ms.
+2025-08-31 05:21:26.182 [info] Started local extension host with pid 1650.
+2025-08-31 05:21:33.707 [info] Extension host (LocalProcess pid: 1650) is unresponsive.
+2025-08-31 05:21:36.382 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-31 05:21:37.037 [error] [Extension Host] (node:1650) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-31 05:21:37.478 [info] Extension host (LocalProcess pid: 1650) is responsive.
+2025-08-31 05:21:37.637 [info] [perf] Render performance baseline is 81ms
+2025-08-31 05:42:10.666 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:42:10.667 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:42:10.667 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-31 05:42:12.838 [info] Started local extension host with pid 25450.
+2025-08-31 05:42:20.809 [error] [Extension Host] (node:25450) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-31 05:42:26.697 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-31 05:42:28.748 [info] Extension host (LocalProcess pid: 25450) is unresponsive.
+2025-08-31 05:42:29.144 [info] [perf] Render performance baseline is 81ms
+2025-08-31 05:42:31.072 [info] Extension host (LocalProcess pid: 25450) is responsive.
+2025-08-31 06:05:22.698 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatSessionStore, join.chatEditingSession
